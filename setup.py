@@ -11,5 +11,5 @@ setup(
     license='Public Domain',
     description='Dynamic select fields for the Django Admin that just works combined with chosen.js.',
     long_description=open('README.markdown').read(),
-    package_data={'flexselect': ['static/flexselect/js/flexselect.js']},
+    package_data={'flexselect': ['static/flexselect/js/*.js']},
 )
